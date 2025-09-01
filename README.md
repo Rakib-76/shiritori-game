@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Shiritori Game
 
-## Getting Started
+A fun two-player word chain game built with React.js / Next.js, where players take turns entering words that start with the last letter of the previous word. The game includes real-time validation, timer, scoreboard, and history tracking.
 
-First, run the development server:
+🎮 Game Rules
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Player A starts by entering any valid English word (minimum 4 letters).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Player B must enter a word starting with the last letter of Player A's word.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+A word cannot be repeated during the game.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+If the entered word is invalid, too short, or starts with the wrong letter, the player gets -1 point, and the turn passes to the opponent.
 
-## Learn More
+Players have 10 seconds per turn. If time runs out, they lose 1 point.
 
-To learn more about Next.js, take a look at the following resources:
+Game continues until you decide to stop!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Two-player turn-based system
+✅ Real-time word validation using dictionary API
+✅ 10-second timer per turn
+✅ Scoreboard to track points
+✅ Word history with meanings
+✅ Responsive and user-friendly UI
 
-## Deploy on Vercel
+🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+React.js / Next.js – Frontend framework
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind CSS – Styling
+
+Dictionary API – For word validation
