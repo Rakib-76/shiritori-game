@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import Scoreboard from "./components/Scoreboard";
-import useTimer from "./hooks/useTimer";
-import useDictionary from "./hooks/useDictionary";
+import Scoreboard from "../components/Scoreboard";
+import useTimer from "../hooks/useTimer";
+import useDictionary from "../hooks/useDictionary";
 
 export default function Home() {
   const [current, setCurrent] = useState("A");

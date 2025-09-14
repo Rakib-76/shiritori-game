@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "1",
+    "Book_name": "The Silent Patient",
+    "Book_img": "/public/book-clipart-lg.png",
+    "Description": "A thrilling psychological novel about a woman's act of violence against her husband and the therapist obsessed with uncovering her motive."
+  },
+  {
+    "_id": "2",
+    "Book_name": "Atomic Habits",
+    "Book_img": "/public/books-clipart-book-clip-art-reading-book-clipart-png-download--comdlpng6967755.jpg",
+    "Description": "A practical guide to building good habits and breaking bad ones through small, consistent changes."
+  },
+  {
+    "_id": "3",
+    "Book_name": "The Psychology of Money",
+    "Book_img": "/public/images.jpeg",
+    "Description": "Explores the way people think about money and how personal experiences shape financial decisions."
+  },
+  {
+    "_id": "4",
+    "Book_name": "Deep Work",
+    "Book_img": "/public/open-book-clipart-lg.png",
+    "Description": "A book about focusing without distraction on cognitively demanding tasks to achieve extraordinary results."
+  },
+  {
+    "_id": "5",
+    "Book_name": "Rich Dad Poor Dad",
+    "Book_img": "/public/books-clipart-book-clip-art-reading-book-clipart-png-download--comdlpng6967755.jpg",
+    "Description": "A personal finance classic that contrasts two different perspectives on wealth and success."
+  },
+  {
+    "_id": "6",
+    "Book_name": "Can't Hurt Me",
+    "Book_img": "/public/open-book-clipart-lg.png",
+    "Description": "David Goggins' inspiring story of overcoming extreme obstacles to become one of the world's toughest athletes."
+  }
+]
